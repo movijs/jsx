@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title>Movijs JSX Explorer</title>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main"
+    href="https://unpkg.com/monaco-editor@0.20.0/min/vs/editor/editor.main.css" />
+
+
+  <script>
+    var require = { paths: { vs: 'https://unpkg.com/monaco-editor@0.20.0/min/vs' } };
+  </script>
+  <script src="https://unpkg.com/monaco-editor@0.20.0/min/vs/loader.js"></script>
+
+  
+</head>
+
+<body>
+
+  <script src="../packages/jsx-explorer/src/app.ts" type="module"></script>
+
+
+  <script>
+    // require(['vs/editor/editor.main'], function () {
+    //   // var editor = monaco.editor.create(document.getElementById('container'), {
+    //   // 	value: ['function x() {', '\tconsole.log("Hello world!");', '}'].join('\n'),
+    //   // 	language: 'javascript'
+    //   // });
+    // });
+
+    require(['vs/editor/editor.main'], ()=>{ })
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "allowJs": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "declaration": true
+  },
+  "include": [
+    "global.d.ts"
+  ],
+  "exclude": ["node_modules"] 
+} 

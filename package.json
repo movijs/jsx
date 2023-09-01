@@ -1,0 +1,28 @@
+{
+  "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "set NODE_ENV=dev && node scripts/dev.js",
+    "site": "node scripts/site.js",
+    "build": "rollup -c -w",
+    "debug": "tsc"
+  },
+  "license": "MIT",
+  "keywords": [
+    "movijsx",
+    "jsx"
+  ],
+  "devDependencies": {
+    "rollup-plugin-typescript2": "^0.34.1",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "movijs": "1.2.17",
+    "path": "^0.12.7"
+  }
+}
