@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^25.0.3",
-    "assert": "^2.0.0",
+    "assert": "^2.1.0",
     "buffer": "^6.0.3",
     "movijs": "1.2.17",
     "path": "^0.12.7"
