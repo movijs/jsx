@@ -20,7 +20,7 @@ interface PersistedState {
 }
 
 
-
+ 
 export class Explorer extends movi.Component<any, any> {
   persistedState = JSON.parse(localStorage.getItem('state') || '{}')
   sharedEditorOptions: m.editor.IStandaloneEditorConstructionOptions = {
