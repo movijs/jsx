@@ -19,7 +19,7 @@
     "sass": "^1.56.1"
   },
   "dependencies": {
-    "@rollup/plugin-commonjs": "^25.0.5",
+    "@rollup/plugin-commonjs": "^25.0.7",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "movijs": "1.2.17",
